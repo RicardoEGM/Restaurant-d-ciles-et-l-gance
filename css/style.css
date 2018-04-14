@@ -302,16 +302,14 @@ ul.dropdown-menu li a:hover {
 }
 
 .thumbnail--awesome {
-     background: url(../images/b1.jpg) no-repeat 0px 0px;
+      width: 100%;
+    height: 100% !important;
 }
-.thumbnail--awesome1 {
-     background: url(../images/b2.jpg) no-repeat 0px 0px;
-}
+
 .thumbnail--awesome2 {
-     background: url(../images/b3.jpg) no-repeat 0px 0px;
-}
-.thumbnail--awesome3 {
-     background: url(../images/b4.jpg) no-repeat 0px 0px;
+      width: 100%;
+    height: 100% !important;
+        margin-top: -7.9%;
 }
 .thumbnail__overlay {
   position: relative;
