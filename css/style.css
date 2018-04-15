@@ -51,10 +51,10 @@ body a:focus {
     margin-bottom: 0px;
 }
 h1 a.navbar-brand {
-    font-size: 44px;
+    font-size: 30px;
     color: #ff0a80 !important;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
 }
@@ -836,43 +836,9 @@ span {
 }
 /*-- //banner-text --*/
 .w3ls-banner-1 {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-	min-height:350px;
+      width: 100%;
+    height: 350px;
 }
-/*-- banner-top --*/
-.w3layouts-banner-top{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-	min-height:750px;
-}
-.w3layouts-banner-top1{
-	background: url(../images/2.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;
-	min-height:750px;
-}
-.w3layouts-banner-top2{
-	background: url(../images/3.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
-	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;	
-	min-height:750px;
-}
-
 /*-- //banner-top --*/ 
 /*--slider--*/
 #slider2,
@@ -1726,9 +1692,7 @@ figure.effect-apollo:hover p {
 /*-- //about --*/
 /*-- offers --*/
 .offers {
-   background: url(../images/22.jpg)no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+   background-color: #424242;
     padding: 5em 0;
 }
 .offers-heading h3{
@@ -3801,3 +3765,15 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 }
 /*-- //responsive-design --*/
+.submenu{
+      padding-bottom: 3%;
+}
+.submenu_Services{
+    color: #f2f2f2;
+    font-size: 14.5px;
+}
+.offers-text-title{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
